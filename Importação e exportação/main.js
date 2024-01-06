@@ -3,3 +3,8 @@
 const teste = require('./importacaoExportacao');
 
 teste.print('Teste print');
+
+//Usando Object destructuring
+const {gets, print} = require('./importacaoExportacao')
+
+print('Texto teste')
