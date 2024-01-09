@@ -1,5 +1,10 @@
+const entrada = [5, 10, 23, 93, 65]
+let i = 0
+
 function gets() {
-    console.log(10);
+    const valor = entrada[i]
+    i++
+    return valor;
 };
 
 function print(texto) {

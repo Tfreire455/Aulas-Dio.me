@@ -7,4 +7,8 @@ teste.print('Teste print');
 //Usando Object destructuring
 const {gets, print} = require('./importacaoExportacao')
 
-print('Texto teste')
+print(gets())
+print(gets())
+print(gets())
+print(gets())
+print(gets())
