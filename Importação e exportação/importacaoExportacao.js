@@ -1,4 +1,4 @@
-const entrada = [5, 10, 23, 93, 65]
+const entrada = [5, 10, 23, 74, 65]
 let i = 0
 
 function gets() {
