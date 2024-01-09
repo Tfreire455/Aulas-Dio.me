@@ -1,9 +1,9 @@
 
-const { gets, print } = require('./Importação e exportação/importacaoExportacao');
+const { gets, print } = require('./Importação e exportação/FuncoesAux exercicio1');
 
 let media = [], notas = 0;
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 6; i++) {
     media.push(gets());
 };
 for (let i = 0; i < media.length; i++) {
@@ -18,4 +18,4 @@ if (mediaFinal < 5) {
 
 print(media);
 print(notas);
-print(mediaFinal);
+print(mediaFinal.toFixed(1));

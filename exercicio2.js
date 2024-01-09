@@ -1,7 +1,7 @@
-const { gets, print } = require('./Importação e exportação/importacaoExportacao')
+const { gets, print } = require('./Importação e exportação/FuncoesAux exercicio2')
 
-let maiorPar = 0, maiorImpar = 0;
-let par = 0, impar = 0, numeroAvaliado = [];
+let maiorPar = null, maiorImpar = null;
+let par = null, impar = null, numeroAvaliado = [];
 
 for (let i = 0; i < 6; i++) {
     numeroAvaliado.push(gets());
@@ -23,6 +23,7 @@ for (let i = 0; i < numeroAvaliado.length; i++) {
         };
     };
 };
+print('----------------')
 print('----------------')
 print(`Maior número par: ${maiorPar}`);
 print(`Maior número impar: ${maiorImpar}`);
