@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 .content {
@@ -16,7 +17,7 @@ ol.pokemons {
     margin: 0;
     padding: 0;
     list-style: none;
-} 
+}
 
 /* ol.pokemons {
     display: grid;
@@ -31,12 +32,24 @@ ol.pokemons {
     list-style: none;
 } */
 
-ol.pokemons li {
+.pokemon {
+    display: flex;
+    flex-direction: column;
     margin: 0.5rem;
-    padding: 0.5rem;
-    background-color: #14A06F;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #46d1b2;
+    color: white;
 }
 
-ol.pokemons li img {
-    width: 50px;
+.pokemon .details img {
+    width: 110px;
+    max-width: 100%;
+}
+
+/* Estilização do número */ 
+.number {
+    display: flex;
+    color: #14A06F;
+    justify-content: flex-end;
 }
