@@ -17,7 +17,7 @@ if (salario >= 0.0 && salario <= 1100.00) {
     total =  (salario + beneficio) - aliquota;
 };
 
-print(total.toFixed(0))
+print(Math.round(total).toFixed(2))
 print('====================')
 print(salario)
 print(beneficio)
