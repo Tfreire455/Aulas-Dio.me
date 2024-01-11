@@ -1,2 +1,37 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
 
+.content {
+    padding: 1rem;
+}
 
+.content h2 {
+    margin: 1rem;
+}
+
+ol.pokemons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} 
+
+/* ol.pokemons {
+    display: grid;
+    grid-template-areas:
+        "bulbasaur ivysaur"
+        "venusaur charmander"
+        "charmaleon charizard"
+        "squirtle wartortle"
+        "blastoise pikachu";
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} */
+
+ol.pokemons li {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
