@@ -1,22 +1,52 @@
 
-function convertPokemonToHtml(pokemon) {
-    return `
-    <li class="pokemon ${pokemon.type}">
-    <span class="number">#0${pokemon.number}</span>
-    <span class="name">${pokemon.name}</span>
+const pokemonList = document.getElementById('pokemonList')
+const loadButton = document.getElementById('loadMoreButton')
 
-    <div class="details">
-        <ol class="types">
-             ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`)}
-        </ol>
-        <img src="${pokemon.photo}"
-            alt="${pokemon.name}">
-    </div>
-    </li>
-    `
+
+const limit = 5, maxRecord = 150;
+let offset = 0;
+
+function loadPokemonItem(offset, limit) {
+    //SINTAXE REDUZIDA
+    pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
+        const newHtml = pokemons.map((pokemon) => `
+            <li class="pokemon ${pokemon.type}">
+            <span class="number">#0${pokemon.number}</span>
+            <span class="name">${pokemon.name}</span>
+    
+            <div class="details">
+                <ol class="types">
+                 ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`)}
+                </ol>
+                <img src="${pokemon.photo}"
+                    alt="${pokemon.name}">
+            </div>
+            </li>`).join('');
+        pokemonList.innerHTML += newHtml;
+    })
 }
 
-const pokemonList = document.getElementById('pokemonList')
+
+loadPokemonItem(offset, limit) 
+
+
+
+loadButton.addEventListener('click', () => {
+    offset += limit;
+    const qtdRecordNextPage = offset + limit;
+    if (qtdRecordNextPage >= maxRecord) {
+        const newLimit = maxRecord - offset
+        loadPokemonItem(offset, newLimit)
+
+        loadButton.parentElement.removeChild(loadButton)
+    } else {
+        loadPokemonItem(offset, limit)
+    }
+})
+
+
+
+
 
 // fetchAPI
 // O fetch nos retorna uma Promise | Promise é a promessa de um resultado
@@ -24,12 +54,6 @@ const pokemonList = document.getElementById('pokemonList')
 
 //--------------------------------------||--------------------------------------
 
-
-/** SINTAXE REDUZIDA */
-pokeApi.getPokemons().then((pokemons = []) => {
-    const newHtml = pokemons.map(convertPokemonToHtml).join('');
-    pokemonList.innerHTML += newHtml;
-})
 
 /** SINTAXE 2 */
 
