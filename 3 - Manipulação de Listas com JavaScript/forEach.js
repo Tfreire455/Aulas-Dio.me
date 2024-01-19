@@ -15,3 +15,7 @@ const masculino = lista.map(() => {
         return Pessoa.name
     }
 })
+
+
+/// Percorre elementos de uma lista
+

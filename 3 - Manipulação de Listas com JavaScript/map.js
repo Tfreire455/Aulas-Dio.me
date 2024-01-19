@@ -10,12 +10,10 @@ class Pessoa {
 
 const lista = [new Pessoa('Thiago', 23, 'M'), new Pessoa('Thailyne', 22, 'F'), new Pessoa('Fabiana', 40, 'F'), new Pessoa('Rosana', 53, 'F')]
 
-print(lista)
-
-const masculino = lista.map(() => {
-    if (Pessoa.gender === 'M') {
-        return Pessoa.name
-    }
+novaLista = lista.map((e) => {
+    return e.name
 })
+print(novaLista)
 
-print(masculino)
+
+//Transforma a lista em outra

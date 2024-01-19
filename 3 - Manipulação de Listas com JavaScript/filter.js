@@ -1,5 +1,10 @@
 const {print} = require('./print')
 
+
+
+//Filtra elementos de uma lista
+
+
 //O filter recebe
 
 const lista = [1,2,3,4,5,6,7,8,9,10]
