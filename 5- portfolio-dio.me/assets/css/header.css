@@ -1,13 +1,33 @@
 .header {
     display: flex;
     flex-direction: column;
-
+    text-align: center;
     align-items: center;
 }
 
 .header .header-img {
     width: 200px;
-    height: 195px;
+    height: 200px;
     border-radius: 50%;
 }
 
+.header-title {
+    
+    font-family: 'Neue Machina Light';
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.header-infos {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    align-self: center;
+}
+
+.infos-format {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content:center;
+}
