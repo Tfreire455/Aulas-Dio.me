@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <title>Portifólio Thiago Moabi S Freire</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/transition.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/acordeon.css">
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+
+
+
 
     <!--Fonte-->
     <link href="https://db.onlinewebfonts.com/c/38d41072aa88a50711d4d50dd0d50f6b?family=Neue+Machina+Regular"
@@ -16,28 +22,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-    <!--Simbolos-->
-
-    <!--Simbolo Pessoa-->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-
-    <!--Simbolo Local-->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-
-    <!--Simbolo Telefone-->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-
-    <!--Simbolo Email-->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
 
 
 
@@ -50,40 +34,99 @@
 </head>
 
 <body>
+    <div class="bgAnimation" id="bgAnimation">
+        <div class="backgroundAnim">
+
+        </div>
+    </div>
     <div class="main">
+
         <header class="header">
             <img class="header-img" src="./assets/foto/ghghghg.jpg" alt="">
 
             <h1 class="header-title">
                 Olá,
-                <br> eu sou o
-                <br>Thiago Moabi de S. Freire
+                <br>eu sou o Thiago Moabi de S. Freire
             </h1>
 
             <div class="header-infos">
-                <div>
-                    <div class="infos-format">
-                        <span class="material-symbols-outlined person">person</span>
-                        <p>Assistente administrativo</p>
-                    </div>
-                    <div class="infos-format">
-                        <span class="material-symbols-outlined location">location_on</span>
-                        <p>São Paulo - SP</p>
-                    </div>
-                    <div class="infos-format">
-                        <span class="material-symbols-outlined telephone">call</span>
-                        <p>(11) 99678-7679</p>
-                    </div>
-                    <div class="infos-format">
-                        <span class="material-symbols-outlined mail">
-                            mail
-                        </span>
-                        <p>thiago1.000@outlook.com</p>
-                    </div>
-                </div>
+
+                <p class="jobs">Assistente administrativo</p>
+                <p class="location">São Paulo - SP</p>
+                <p class="telephone">(11) 99678-7679</p>
+                <p class="email">thiago1.000@outlook.com</p>
+
             </div>
         </header>
     </div>
+
+    <section class="secoes">
+        <!--Skills-->
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <span class="title">
+                    Skills
+                </span>
+            </button>
+
+            <div class="content">
+
+            </div>
+        </section>
+    </section>
+
+    <section class="secoes">
+        <!--idiomas-->
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <span class="title">
+                    Idiomas
+                </span>
+            </button>
+
+            <div class="content">
+                <ul class="language">
+                    <li>Português - Nativo</li>
+                    <li>Inglês - Básico</li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+    <section class="secoes">
+        <!--Portfolio-->
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                <span class="title">
+                    Portfolio
+                </span>
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li class="portfolio-list">
+                        <span class="title">Criando um portfolio com a DIO</span>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="portfolio-list">
+                        <span class="title">Criando um portfolio com a DIO</span>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="portfolio-list">
+                        <span class="title">Criando um portfolio com a DIO</span>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="portfolio-list">
+                        <span class="title">Criando um portfolio com a DIO</span>
+                        <a href="#">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+    <script src="./js/background-transition.js"></script>
+    <script src="./js/acordeon.js"></script>
 </body>
 
 </html>
