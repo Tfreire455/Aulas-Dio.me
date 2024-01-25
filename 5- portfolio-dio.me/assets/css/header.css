@@ -78,13 +78,13 @@ body {
     fill: #2C74B3;
 }
 
-.telephone a {
+.style-btn-infos a {
     text-decoration: none;
     color: var(--branca);
     border: var(--segunda-cor) solid 0px;
 }
 
-.telephone:hover {
+.style-btn-infos:hover {
     transition: 1s;
     border: var(--segunda-cor) solid 4px;
     border-radius: 16px;

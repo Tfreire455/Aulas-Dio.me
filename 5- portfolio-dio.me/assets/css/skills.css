@@ -1,5 +1,6 @@
 .skCont {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .skills {
@@ -8,24 +9,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
 .skill-title {
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
 }
 
 .skList {
     list-style: none;
-    padding: .5rem;
+    padding: 2px;
 }
 
 .skList li img {
-    width: 40px;
-    margin: .5rem;
+    width: 35px;
+    margin: .3rem;
 }
 
-.skList {
+.professional-skills {
     display: grid;
     grid-template-areas: "css html"
                           "javascript microsoft";
@@ -43,3 +46,15 @@
 .microsoft {
     grid-area: microsoft;
 }
+
+
+.personal-skills li {
+
+    margin-top: .5rem;
+    padding-bottom: 2px;
+    text-align: start;
+    font-size: .85rem;
+
+}
+
+
