@@ -1,0 +1,45 @@
+.skCont {
+    display: flex;
+}
+
+.skills {
+    margin: .5rem;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-title {
+    text-align: center;
+}
+
+.skList {
+    list-style: none;
+    padding: .5rem;
+}
+
+.skList li img {
+    width: 40px;
+    margin: .5rem;
+}
+
+.skList {
+    display: grid;
+    grid-template-areas: "css html"
+                          "javascript microsoft";
+}
+
+.css {
+    grid-area: css;
+}
+.html {
+    grid-area: html;
+} 
+.javascript {
+    grid-area: javascript;
+}
+.microsoft {
+    grid-area: microsoft;
+}

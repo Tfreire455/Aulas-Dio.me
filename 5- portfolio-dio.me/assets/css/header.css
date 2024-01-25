@@ -18,7 +18,7 @@ body {
     margin: 1rem;
     border-radius: 18px;
     position: relative;
-    background: linear-gradient(var(--preto), var(--quarta-cor));
+    background: linear-gradient(var(--preto), var(--terceira-cor));
 }
 
 .header .header-img {
@@ -78,6 +78,19 @@ body {
     fill: #2C74B3;
 }
 
+.telephone a {
+    text-decoration: none;
+    color: var(--branca);
+    border: var(--segunda-cor) solid 0px;
+}
+
+.telephone:hover {
+    transition: 1s;
+    border: var(--segunda-cor) solid 4px;
+    border-radius: 16px;
+    background: var(--quarta-cor);
+    filter: brightness(2);
+}
 
 
 

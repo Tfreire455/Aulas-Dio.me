@@ -1,5 +1,5 @@
 .secoes {
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .acordeon {
@@ -14,8 +14,8 @@
 
 .acordeon.open,
 .acordeon:hover {
-    background: var(--terceira-cor);
-    border-color: var(--terceira-cor);
+    background: linear-gradient(var(--preto), var(--quarta-cor));
+    border-color: linear-gradient(var(--preto), var(--quarta-cor));
     transition: .5s;
 }
 
