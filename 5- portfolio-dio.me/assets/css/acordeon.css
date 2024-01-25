@@ -1,24 +1,22 @@
 .secoes {
     padding: 1rem;
-    box-sizing: border-box;
 }
 
 .acordeon {
-    position:sticky;
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
-    border: 2px solid var(--quarta-cor);
     border-radius: 1rem;
 }
 
 .acordeon.open,
 .acordeon:hover {
-    background: var(--segunda-cor);
-    border-color: var(--segunda-cor);
-    transition: .5s ease-in-out;
+    background: var(--terceira-cor);
+    border-color: var(--terceira-cor);
+    transition: .5s;
 }
 
 .acordeon .trigger {
@@ -26,7 +24,8 @@
     flex-direction: row;
     font-size: 1.7rem;
     padding: 1rem 2rem;
-    background-color: transparent;
+    background-color: var(--terceira-cor);
+    border-radius: 1rem;
     outline: none;
     color: var(--branco);
     border: none;
@@ -66,7 +65,7 @@
     flex-direction: row;
     align-items: center;
     top: 0;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .content .language {
@@ -76,6 +75,9 @@
     flex-wrap: wrap;
 }
 
+.content .language li {
+    margin: 1rem 0;
+}
 .content .language li::before {
     content: '';
     width: 1rem;
@@ -98,8 +100,10 @@
 }
 
 .acordeon.open .content {
-    display: inline-block;
-    padding: 20px;
+    padding: 2rem;
+}
+
+.acordeon.open .content {
     opacity: 100%;
     height: 100%;
     transition-duration: 2s;
