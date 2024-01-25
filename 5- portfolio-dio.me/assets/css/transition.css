@@ -21,7 +21,7 @@
   background: #00bfff;
   filter: blur(30px);
   -webkit-animation: aniBack 10s linear infinite;
-  animation: aniBack 10s linear infinite;
+  animation: aniBack 6s linear infinite;
 }
 
 .bgAnimation .colorBox {
@@ -51,7 +51,7 @@
 @media (min-width: 1280px) {
 
   .bgAnimation {
-    height: 150%;
+    height: 250%;
   }
   
 }
