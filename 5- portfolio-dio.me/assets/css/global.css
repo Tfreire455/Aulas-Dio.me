@@ -14,3 +14,7 @@
     padding: 0;
 
 }
+
+body {
+    color: var(--branco)
+}
