@@ -10,19 +10,19 @@
     "hardSkills": [
       {
         "name": "CSS3",
-        "logo": "https://github.com/Tfreire455/Aulas-Dio.me/blob/main/5-%20portfolio-dio.me/assets/Tecnologias/CSS3.png"
+        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/CSS3.png?token=GHSAT0AAAAAACMNLW2V6VVMXRH4CKWHSAWGZNVFHMA"
       },
       {
         "name": "HTML5",
-        "logo": "https://github.com/Tfreire455/Aulas-Dio.me/blob/main/5-%20portfolio-dio.me/assets/Tecnologias%20preto%20e%20branco/html.svg"
+        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/HTML5.png?token=GHSAT0AAAAAACMNLW2V6RFIRXUXI64ZENOYZNVFIBA"
       },
       {
         "name": "Javascript",
-        "logo": "https://github.com/Tfreire455/Aulas-Dio.me/blob/main/5-%20portfolio-dio.me/assets/Tecnologias%20preto%20e%20branco/JAVASCRIPT.svg"
+        "logo": "https://github.com/Tfreire455/Aulas-Dio.me/blob/main/5-%20portfolio-dio.me/assets/Tecnologias/JAVASCRIPT.png"
       },
       {
         "name": "SO Microsoft",
-        "logo": "https://github.com/Tfreire455/Aulas-Dio.me/blob/main/5-%20portfolio-dio.me/assets/Tecnologias%20preto%20e%20branco/microsoft.svg"
+        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/REACT.png?token=GHSAT0AAAAAACMNLW2VVR6JKXW6JKA7MIOMZNVFIZA"
       }
     ],
     "softSkills": [
