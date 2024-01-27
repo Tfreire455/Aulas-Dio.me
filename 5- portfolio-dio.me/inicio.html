@@ -47,27 +47,29 @@
     <main class="main">
 
         <header class="header">
-            <img class="header-img" src="./assets/foto/perfil.jpg" alt="">
+            <img  src="" class="header-img" id="profile.photo">
 
             <h1 class="header-title">
                 Olá,
-                <br>eu sou o Thiago Moabi de S. Freire
+                <br>eu sou o <span id="profile-name">Carregando...</span>
             </h1>
 
             <div class="header-infos">
 
-                <p class="jobs">Assistente administrativo</p>
-                <p class="location">São Paulo - SP</p>
-                <p class="telephone style-btn-infos ease-in duration-300"><a href="tel: +5511996787679">(11)
-                        99678-7679</a></p>
+                <p class="jobs" id="profile-jobs">Carregando...</p>
+
+                <p class="location" id="profile-location">Carregando...</p>
+
+                <p class="telephone style-btn-infos ease-in duration-300"><a href="tel: +5511996787679"
+                        id="profile-telephone">Carregando...</a></p>
+
                 <p class="telephone style-btn-infos ease-in duration-300">
-                    <a href="https://api.whatsapp.com/send?phone=+5511996787679&text=Olá,%20Thiago!"
-                        target="_blank">Mensagem pelo WhatsApp</a>
+                    <a href="https://api.whatsapp.com/send?phone=+5511996787679&text=Olá,%20Thiago!" target="_blank"
+                        id="profile-whatsapp">Carregando...</a>
                 </p>
 
                 <p class="email style-btn-infos ease-in duration-300">
-                    <a href="mailto:thiago1.000@outlook.com">
-                        thiago1.000@outlook.com</a>
+                    <a href="mailto:thiago1.000@outlook.com" id="profile-email">Carregando...</a>
                 </p>
 
             </div>
@@ -251,6 +253,8 @@
         </section>
     </section>
 
+    <script src="./js/api.js"></script>
+    <script src="./js/main.js"></script>
     <script src="./js/background-transition.js"></script>
     <script src="./js/acordeon.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
