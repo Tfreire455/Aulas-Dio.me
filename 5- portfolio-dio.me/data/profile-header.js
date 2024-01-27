@@ -21,6 +21,18 @@ function updateProfileInfo(profileData) {
     email.innerHTML = profileData.email;
 }
 
+function updateHardskillsProfile(profileData) {
+
+    const updateImgLogo = document.getElementById('profile.skills.hardskills');
+    updateImgLogo.innerHTML = profileData.skills.hardSkills.map(skills => `<li><img src="${skills.logo}" alt="${skills.name}"></li>`).join(' ')
+
+}
+
+function updateSoftskillsProfile(profileData) {
+
+    const updateSoftskills = document.getElementById('profile.skills.softSkills')
+    updateSoftskills.innerHTML = profileData.skills.softSkills.map(softskill => `<li>${softskill}</li>`).join('')
+}
 
 
 

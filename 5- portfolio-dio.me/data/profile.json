@@ -10,19 +10,19 @@
     "hardSkills": [
       {
         "name": "CSS3",
-        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/CSS3.png?token=GHSAT0AAAAAACMNLW2UDXGD4ZM6IFWVEHIGZNVF5BQ"
+        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/CSS3.png"
       },
       {
         "name": "HTML5",
-        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/HTML5.png?token=GHSAT0AAAAAACMNLW2VKCKEHXUTDMNCSC5SZNVF5VA"
+        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/HTML5.png"
       },
       {
         "name": "Javascript",
-        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/JAVASCRIPT.png?token=GHSAT0AAAAAACMNLW2UN4CIZM6GJ2Q7VAV4ZNVF6DQ"
+        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/JAVASCRIPT.png"
       },
       {
         "name": "SO Microsoft",
-        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/VSCODE.png?token=GHSAT0AAAAAACMNLW2UFZDRL2XB2GIBIJCGZNVF6YA"
+        "logo": "https://raw.githubusercontent.com/Tfreire455/Aulas-Dio.me/main/5-%20portfolio-dio.me/assets/Tecnologias/VSCODE.png"
       }
     ],
     "softSkills": [
