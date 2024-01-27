@@ -23,14 +23,6 @@
       {
         "name": "SO Microsoft",
         "logo": "https://github.com/Tfreire455/Aulas-Dio.me/blob/main/5-%20portfolio-dio.me/assets/Tecnologias%20preto%20e%20branco/microsoft.svg"
-      },
-      {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-      },
-      {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
       }
     ],
     "softSkills": [
@@ -61,6 +53,6 @@
     {
       "name": "Assistente administrativo / Nova Jerusalém Diesel",
       "period": "2022 - até o momento"
-      }
+    }
   ]
 }
