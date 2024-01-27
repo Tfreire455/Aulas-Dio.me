@@ -40,12 +40,12 @@
   "portfolio": [
     {
       "name": "Feito na Alura para a criação de um site responsivo.",
-      "url": "https://github.com/Tfreire455/Alurabook-responsivo",
+      "url": "https://tfreire455.github.io/Alurabook-responsivo/",
       "github": true
     },
     {
       "name": "Curso feito na DIO, usando javascript para a criação de uma pokedex.",
-      "url": "https://github.com/Tfreire455/Pokedex-index.html",
+      "url": "https://tfreire455.github.io/Pokedex-index.html",
       "github": true
     }
   ],
