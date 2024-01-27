@@ -1,6 +1,6 @@
 function updateHardskillsProfile(profileData) {
 
-    const CSS3 = document.getElementById('profile.skills.hardskills');
-    CSS3.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}"></li>`).join(' ')
+    const updateImgLogo = document.getElementById('profile.skills.hardskills');
+    updateImgLogo.innerHTML = profileData.skills.hardSkills.map(skills => `<li><img src="${skills.logo}" alt="${skills.name}"></li>`).join(' ')
 
 }
